@@ -24,3 +24,30 @@ h1 {
     font-style: italic;
     color: #999;
 }
+
+#dogImage {
+    height: 250px;
+    width: 315px;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    border: 2px solid blue;
+    height: 400px;
+    width: 350px;
+    background-color: aqua;
+}
+
+#submitButton {
+    margin-bottom: 10px;
+}
+
+h5 {
+    
+    color: black;
+    text-decoration: underline;
+}
+
+#weatherApp {
+    background-color: rgb(187, 229, 243);
+}

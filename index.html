@@ -18,16 +18,29 @@
             Part 1: Random Dog Generator
         </h1>
         <div class="api-content">
-            [INSERT RANDOM DOG GENERATOR HERE]
+            <div class="card-body">
+                <img id="dogImage" src="https://dog.ceo/api/breeds/image/random" class="card-img-top" alt="random dog image">
+                <p class="card-text">Click button for a random dog pic!</p>
+                <button id="button" type="button" class="btn btn-primary">Click Here!</button>
+            </div>
         </div>
     </div>
 
-    <div class="api-section">
+    <div id="weatherApp" class="api-section">
         <h1>
             Part 2: Weather App
         </h1>
         <div class="api-content">
-            [INSERT WEATHER APP HERE]
+            <form id="weatherForm">
+                <input id="cityInput" type="text" placeholder="Enter City Here">
+                <input id="submitButton" type="submit">
+                <h5>Temperature</h5>
+                <p id="temp"></p>
+                <h5>Wind Speed</h5>
+                <p id="wind"></p>
+                <h5>Description</h5>
+                <p id="desc"></p>
+            </form>
         </div>
     </div>
 
